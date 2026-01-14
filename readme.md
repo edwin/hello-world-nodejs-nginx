@@ -19,6 +19,7 @@ This project is a Notion-like task management application built with React and V
 - **Expandable UI**: Click on tasks to view additional details
 - **Local Storage**: All data persists in your browser between sessions
 - **Responsive Design**: Works on desktop and mobile devices
+- **404 Page**: Custom page for handling non-existent routes
 
 ## Project Structure
 
@@ -62,6 +63,14 @@ This project is a Notion-like task management application built with React and V
 2. **Deleting Categories**:
    - Click the "×" button next to a category name
    - All tasks in that category will be moved to the "General" category
+
+### 404 Page Navigation
+
+When you navigate to a route that doesn't exist in the application:
+- A custom 404 page will be displayed
+- The page shows a "404 - Page Not Found" message
+- A "Back to Home" button allows easy navigation to the main application
+- This ensures users always have a way to return to the application when they encounter invalid URLs
 
 ### Data Persistence
 
