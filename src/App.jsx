@@ -380,12 +380,12 @@ function App() {
 
                             {task.dueDate && (
                               <div className="task-due-date">
-                                <strong>Due Date:</strong> {new Date(task.dueDate).toLocaleDateString(undefined, {day: '2-digit', month: '2-digit', year: 'numeric'}).split('/').reverse().join('/')}
+                                <strong>Due Date:</strong> {new Date(task.dueDate).toLocaleDateString('en-GB')}
                               </div>
                             )}
 
                             <div className="task-meta">
-                              <span>Created: {new Date(task.createdAt).toLocaleDateString(undefined, {day: '2-digit', month: '2-digit', year: 'numeric'}).split('/').reverse().join('/')}</span>
+                              <span>Created:  {new Date(task.createdAt).toLocaleDateString('en-GB')}</span>
                             </div>
                           </div>
                         )}
